@@ -40,13 +40,13 @@
 
     "autoload": {
         "psr-4": {
-            "YourVendor\\Mandrill\\": "src/"
+            "Regur\\Mandrill\\": "src/"
         }
     },
 
     "autoload-dev": {
         "psr-4": {
-            "YourVendor\\Tests\\Mandrill\\": "tests/"
+            "Regur\\Tests\\Mandrill\\": "tests/"
         }
     },
 
