@@ -1,6 +1,6 @@
 <?php
 
-namespace Intonate\Tests\Mandrill;
+namespace Regur\Tests\Mandrill;
 
 use Illuminate\Mail\Mailer;
 

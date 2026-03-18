@@ -1,6 +1,6 @@
 <?php
 
-namespace Intonate\Mandrill;
+namespace Regur\Mandrill;
 
 use Illuminate\Support\ServiceProvider;
 use Symfony\Component\Mailer\Bridge\Mailchimp\Transport\MandrillTransportFactory;

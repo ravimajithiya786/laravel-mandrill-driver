@@ -1,8 +1,8 @@
 <?php
 
-namespace Intonate\Tests\Mandrill;
+namespace Regur\Tests\Mandrill;
 
-use Intonate\Mandrill\MandrillServiceProvider;
+use Regur\Mandrill\MandrillServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
