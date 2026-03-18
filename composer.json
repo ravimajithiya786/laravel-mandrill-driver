@@ -1,0 +1,63 @@
+{
+    "name": "regur/laravel-mandrill-driver",
+    "description": "Laravel Mandrill API based mail driver (Laravel 12 compatible).",
+    "keywords": [
+        "driver",
+        "laravel",
+        "mail",
+        "mailchimp",
+        "mandrill",
+        "transactional-email"
+    ],
+    "type": "library",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Jorge González",
+            "email": "scrub.mx@gmail.com"
+        },
+        {
+            "name": "Ravi Majithiya",
+            "email": "ravi.majithiya@regur.net"
+        }
+    ],
+
+    "require": {
+        "php": "^8.5",
+        "illuminate/support": "^11.0|^12.0",
+        "mailchimp/transactional": "^1.0",
+        "symfony/mailchimp-mailer": "^7.0",
+        "symfony/http-client": "^7.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "psy/psysh": "^0.12",
+        "symfony/var-dumper": "^7.0",
+        "orchestra/testbench": "^9.0|^10.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\Mandrill\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "YourVendor\\Tests\\Mandrill\\": "tests/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Regur\\Mandrill\\MandrillServiceProvider"
+            ]
+        }
+    },
+
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

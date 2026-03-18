@@ -1,0 +1,7 @@
+risky: false
+version: 8
+preset: laravel
+finder:
+  exclude:
+    - "vendor"
+  name: "*.php"
